@@ -1,0 +1,96 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.traffic-container{
+  width: 100%;
+  height: 100vh;
+  display: flex;
+ 
+}
+
+.traffic-image{
+width: 50%;
+
+background-image: url("https://res.cloudinary.com/day1peihn/image/upload/v1726545950/traffic1_txf9ey.jpg");
+background-repeat: no-repeat;
+background-position: center;
+background-size: contain;
+position: relative;
+}
+  
+.traffic-light{
+  position: absolute;
+  width: 100px;
+  height: 180px;
+  background-color:#454545;
+  left: 97px;
+  top: 25px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 5px;
+}
+.light{
+  width: 50px;
+  height: 60px;
+  border-radius: 50%;
+  background-color: black;
+  margin-bottom: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color:white;
+  font-size: 20px;
+  font-weight: bold;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.right-part{
+  width: 40%;
+  padding: 20px;
+ 
+}
+
+.pheading{
+  font-size: 22px;
+  font-weight: bold;
+  font-family: 'Times New Roman', Times, serif;
+}
+.buttonenable {
+  width: 130px;
+  height: 50px;
+  margin-top: 10px;
+  background-color: black;
+  color: white;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: bold;
+  border: none;
+  border-radius: 10px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.buttondisable {
+  background-color: #454545;
+  color: white;
+  width: 130px;
+  height: 50px;
+  margin-top: 10px;
+  border: none;
+  border-radius: 10px;
+  font-size: 18px;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: bold;
+}
+span{
+  color:#f96d00;
+}
+
+.pedestrain-crossing{
+  margin-bottom: 25px;
+}
