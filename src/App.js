@@ -1,6 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
-import TrafficLight from './TrafficLight';
+
 import Traffic from './Traffic';
 function App() {
   return (

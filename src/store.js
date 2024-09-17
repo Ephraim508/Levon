@@ -2,9 +2,9 @@ import { createStore } from 'redux';
 
 // Initial state with light durations and flags
 const initialState = {
-    Green: 10,
-    Yellow: 3,
-    Red: 7,
+    Green: 10, //Greed Light
+    Yellow: 3,  //Yellow light
+    Red: 7,  //Red Light
     emergency: false,            // Emergency vehicle request state
     pedestrianRequest: false,     // Pedestrian crossing request state
 };
